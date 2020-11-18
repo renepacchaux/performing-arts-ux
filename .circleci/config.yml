@@ -1,0 +1,51 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/node:14.11.0
+    steps:
+      - checkout
+      - run: node --version
+
+      - run: npm install
+      - run:
+          name: Checking for Crosspost
+          command: npx crosspost --version
+
+      # cutnpaste method 1 - BUST or dup
+      # - run:
+      #     name: Looking for home
+      #     command: mkdir config && touch config/store.json
+      # - run:
+      #     name: Create a config file
+      #     command: |
+      #       echo "{
+      #         'webflowArticlesUrl': '${WEBFLOW_ARTICLES_URL}',
+      #         'webflowApiKey': '${WEBFLOW_API_KEY}',
+      #         'webflowCollectionId': '${WEBFLOW_COLLECTION_ID}'
+      #         }" > config/store.json
+      # - run: mkdir -p ~/.config/configstore
+      # # - run: touch ~/.config/configstore/crosspost.json
+      # - run:
+      #     name: Configstore looks for it here
+      #     command: mv config/store.json ~/.config/configstore/crosspost.json
+
+
+
+      # METHOD 2 - feed into the prompt
+      - run: echo "${WEBFLOW_ARTICLES_URL}" | npx crosspost configure -s webflowArticlesUrl
+      - run: echo "${WEBFLOW_COLLECTION_ID}" | npx crosspost configure -s webflowCollectionId
+      - run: echo "${WEBFLOW_API_KEY}" | npx crosspost configure -s webflowApiKey
+
+
+
+      # make sure its there
+      - run: cat ~/.config/configstore/crosspost.json
+      # see what's there
+      - run: ls -a ~/.config/configstore/
+
+      # Crosspost the article
+      - run: npx crosspost configure -l
+      - run:
+          name: run the final crosspost command as repo README
+          command: npx crosspost article README.md --to webflow

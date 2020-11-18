@@ -1,0 +1,26 @@
+{
+  "name": "huntington-bank-pavilion",
+  "version": "1.0.0",
+  "description": "case study for the ux project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renepacchaux/huntington-bank-pavilion.git"
+  },
+  "keywords": [
+    "ux",
+    "venue"
+  ],
+  "author": "Rene M Paccha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renepacchaux/huntington-bank-pavilion/issues"
+  },
+  "homepage": "https://github.com/renepacchaux/huntington-bank-pavilion#readme",
+  "dependencies": {
+    "crosspost": "github:renepacchaux/crosspost-markdown#webflow"
+  }
+}
