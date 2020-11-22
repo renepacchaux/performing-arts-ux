@@ -36,6 +36,7 @@ jobs:
       - run: echo "${WEBFLOW_ARTICLES_URL}" | npx crosspost configure -s webflowArticlesUrl
       - run: echo "${WEBFLOW_COLLECTION_ID}" | npx crosspost configure -s webflowCollectionId
       - run: echo "${WEBFLOW_API_KEY}" | npx crosspost configure -s webflowApiKey
+      - run: echo "${WEBFLOW_TABLE_REFERENCE}" | npx crosspost configure -s webflowTableReference
 
 
 
