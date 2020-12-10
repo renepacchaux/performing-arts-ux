@@ -4,5 +4,6 @@ The current state of the site has a static entry of background information. This
 
 This is an exciting project.  A group of performers.  One website.
 
+Roles: UX and coding.
 
 Charged with the added responsibility of deployment, I coded this on Vue.js.
