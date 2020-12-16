@@ -2,7 +2,7 @@
 
 ## Talent Pool
 
-GLX is a talent pool presence that bring together talend to leveraging arguments of exposure.  It provides exposure-footing by creating a profil, bio and connection history.  I collaborated with Jesse, a graphic designer remotely, and in many conversations with the stakeholder and group director, Mishel Livio.
+GLX is a talent pool presence that bring together talend to leveraging arguments of exposure.  It provides exposure-footing by creating a profil, bio and connection history.  I collaborated with Jesse, a graphic designer remotely, and in many conversations with the stakeholder and group director, Mishell Livio.
 
 
 ### Project Challenge
@@ -32,6 +32,9 @@ I made a chart of industry terms to increase the efficiency of booking agents at
 
 We focused on this to make decisions about our url structure. The importance of the url is an SEO mainstay.  Given it's importance, I set out to use Vue adjacent tools.
 
+#### Design
+##### Sketches
+We started looking at the original.  A long list that did not paginate.  This can be inefficient to scroll all the way to the end, resulting in overlooking some key performers.
 
 ### Project solution
 I coded this on Vue.js.
