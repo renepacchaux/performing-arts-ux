@@ -1,16 +1,13 @@
 # Performing Arts UX
 
 ## A common thread of talent
-The current state of the site has a static entry of background information. This information is a start.
+The current state of the site has a static entry of background information for each performer.
 
-This is an exciting project.  A group of performers.  One website.
+
 
 ### Project Challenge
 
-Charged with the added responsibility of deployment.
 
-### Project solution
-I coded this on Vue.js.
 
 #### Discovery
 So many lessons learned on this project that span conding in Vue.js, deployment, and information architecture.
@@ -18,11 +15,23 @@ So many lessons learned on this project that span conding in Vue.js, deployment,
 
 ##### User Testing
 
-Using mixpanel to track first-clicks and beyond, I tested the profile page to give the profile a home. The profile page was tested remote computer style, on the video app of choice by the interviewee, usually at dinner time.  Among the interviewees, Holly Jessye and Karl all participated without having to share thier desktop screen.
+Using mixpanel to track first-clicks and beyond, I tested the profile page to give the profile a home. The profile page was tested remote computer style, on the video app of choice by the interviewee, usually at dinner time.  Among the interviewees, Holly Jessye and Karl all participated without having to share their desktop screen.
 
 ##### Competitive
-I did analysis of the competition to achieve a layout that works.
+Northlight, Ticketmaster, 4-Star and NBC where all analized as part of the competition to achieve a layout that works on 
+1. photo size and placement
+2. what items are included as part of the contact details
+3. placement of copyright notice
+
+Through dropbox paper tables we where able to make a tally of the important bits common across the established websites.
 
 ##### Comparative
-I mad a chart of industry terms to increase the efficiency of agents finding talent.
+I made a chart of industry terms to increase the efficiency of booking agents at finding talent. Included Backstage, Second City, Actors Access on what where the most used terms by:
+1. Count
+2. Used in navigation
+3. Used as categories in blog sections
+We focused on this to make decisions about our url structure. The importance of the url is an SEO mainstay.  Given it's importance, I set out to use Vue adjacent tools.
 
+
+### Project solution
+I coded this on Vue.js.
