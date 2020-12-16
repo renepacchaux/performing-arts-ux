@@ -42,5 +42,6 @@ I wireframes at least two views, starting with mobile, in order to look atpictur
 ##### Guidelines
 I didn't want the user to have to learn and re-learn (two ways of doing the same thing), so at design merge, I kept the colors and font and focused on the root landing page.  The initial components where Material-based components.  I would use this to maintain alignment and uniformity.  If we lived through a userflow, we can make those decisions live in a style guide.
 
-### Project solution
-I coded this on Vue.js.
+### Project Summary
+-# What did you learn?
+- The proximity of name to performer is an important convention that reflects the real-world headshots that are handed in at auditions.
