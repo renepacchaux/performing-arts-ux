@@ -12,5 +12,7 @@ Charged with the added responsibility of deployment.
 ### Project solution
 I coded this on Vue.js.
 
-#### Details
+#### Discovery 
 So many lessons learned on this project that span conding in Vue.js, deployment, and information architecture.
+
+##### Usertesting
