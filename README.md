@@ -21,7 +21,7 @@ So many lessons learned on this project that span conding in Vue.js, deployment,
 Using mixpanel to track first-clicks and beyond, I tested the profile page to give the profile a home. The profile page was tested remote computer style, on the video app of choice by the interviewee, usually at dinner time.  Among the interviewees, Holly Jessye and Karl all participated without having to share thier desktop screen.
 
 ##### Competitive
-I did analysis of. the competition to achiev a layout that works.
+I did analysis of the competition to achieve a layout that works.
 
 ##### Comparative
 I mad a chart of industry terms to increase the efficiency of agents finding talent.
