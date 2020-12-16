@@ -2,7 +2,7 @@
 
 ## A common thread of talent
 
-GLX is a talent pool presence that bring together talend to leveraging arguments of exposure.  It provides exposure-footing by creating a profil, bio and connection history.  I collaborated with Jesse, a graphic designer remotely, and in many conversations with the stakeholder, Mishel Livio.
+GLX is a talent pool presence that bring together talend to leveraging arguments of exposure.  It provides exposure-footing by creating a profil, bio and connection history.  I collaborated with Jesse, a graphic designer remotely, and in many conversations with the stakeholder and group director, Mishel Livio.
 
 
 ### Project Challenge
