@@ -34,7 +34,13 @@ We focused on this to make decisions about our url structure. The importance of 
 
 #### Design
 ##### Sketches
-We started looking at the original.  A long list that did not paginate.  This can be inefficient to scroll all the way to the end, resulting in overlooking some key performers.
+We started looking at the original.  A long list that did not paginate.  This can be inefficient to scroll all the way to the end, resulting in overlooking some key performers. Using Marvelapp and 3x5 cards, I sketched out about 3 final variations on a full cast landing page in order to choose a more compact collection layout. Over 20 performers now are shown within a square collection format.
+
+##### Wireframes
+I wireframes at least two views, starting with mobile, in order to look atpicture placement and text sizes given an unknown set of actor records. Justinmind prototyping software immediately help load a data collection into the first wireframes.  It is important to not assume to much.  When using a persona representation, I try to 'live it' throught the userflow and wireframeing.  If our persona, "Dori" is pulling out her phone as she's walking her dog -- it is only one instance.  But finding loopholes is about at least living through "loop one." 
+
+##### Guidelines
+I didn't want the user to have to learn and re-learn (two ways of doing the same thing), so at design merge, I kept the colors and font and focused on the root landing page.  The initial components where Material-based components.  I would use this to maintain alignment and uniformity.  If we lived through a userflow, we can make those decisions live in a style guide.
 
 ### Project solution
 I coded this on Vue.js.
