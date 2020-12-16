@@ -43,5 +43,9 @@ I wireframes at least two views, starting with mobile, in order to look atpictur
 I didn't want the user to have to learn and re-learn (two ways of doing the same thing), so at design merge, I kept the colors and font and focused on the root landing page.  The initial components where Material-based components.  I would use this to maintain alignment and uniformity.  If we lived through a userflow, we can make those decisions live in a style guide.
 
 ### Project Summary
--# What did you learn?
+
 - The proximity of name to performer is an important convention that reflects the real-world headshots that are handed in at auditions.
+- Templates least serve the user on exposure goals
+- I enjoyed reading the many varied bios of performers
+- I got to delve in deep and live out the process of getting a headshot taken
+- Having the hometown date as a connector category for the user or booking agent may be a great next step.
