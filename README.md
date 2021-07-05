@@ -1,8 +1,13 @@
-# Performing Arts UX
+# Performing Arts Directory
 
-## Talent Pool
+## Intro
 
-GLX is a talent pool presence that brings together talent to leveraging arguments of exposure.  It provides exposure-footing by creating a profile, bio, and connection history.  I collaborated with Jesse, a graphic designer remotely, and in many conversations, an actor-director as Stakeholder.
+A directory of performing artists was created using Vue.js. I will be focusing on the developer within, hoping to describe why this needs separate focus from a UX designer role. I will be reviewing GitHub commits, trying to see what was missed.  I say dev because this project revolved around a Heroku Implementation with a firebase fallback. Eventually,the fruits of this project was useful as a profile-list.  SEO work started making it's way intoscope, in creep fashion. Aesthetics was the focus,but not the problem. 
+
+What would I go back and do different? Was it easy to follow my own flow? What if the trajectory was smooth but the result disjointed?
+
+I have as a result an API implementation and a Vue front end with a airtable backend.
+
 
 
 ### Project Challenge
