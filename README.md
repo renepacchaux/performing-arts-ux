@@ -2,11 +2,11 @@
 
 ## Intro
 
-A directory of performing artists was created using Vue.js. I will be focusing on the developer within, hoping to describe why this needs separate focus from a UX designer role. I will be reviewing GitHub commits, trying to see what was missed.  I say dev because this project revolved around a Heroku Implementation with a firebase fallback. Eventually,the fruits of this project was useful as a profile-list.  SEO work started making it's way intoscope, in creep fashion. Aesthetics was the focus,but not the problem. 
+A directory of performing artists was created using Vue.js. I will be focusing on the developer within, hoping to describe why this needs separate focus from a UX designer role. I will be reviewing GitHub commits, trying to see what was missed.  I say dev because this project revolved around a Heroku Implementation with a firebase fallback. Eventually, the fruits of this project were useful as a profile list.  SEO work started making its way into scope in creep fashion. Aesthetics was the focus, but not the problem. 
 
-What would I go back and do different? Was it easy to follow my own flow? What if the trajectory was smooth but the result disjointed?
+What would I go back and do differently? Was it easy to follow my own flow? What if the trajectory was smooth but the result disjointed?
 
-I have as a result an API implementation and a Vue front end with a airtable backend.
+I have, as a result, API implementation and a Vue front end with an airtable backend.
 
 
 
@@ -22,20 +22,20 @@ So many lessons learned on this project that span coding in Vue.js, deployment, 
 Using Mixpanel to track first-clicks and beyond, I tested the profile page to give the profile a home. The profile page was tested remotely on the video app of choice by the interviewee, usually at dinner time.
 
 ##### Competitive
-Northlight, Ticketmaster, 4-Star, and NBC where all analyzed as part of the competition to achieve a layout that works on 
+Northlight, Ticketmaster, 4-Star, and NBC were all analyzed as part of the competition to achieve a layout that works on 
 1. photo size and placement
 2. what items are included as part of the contact details
 3. placement of copyright notice
 
-Through dropbox paper tables we where able to make a tally of the important bits common across the established websites.
+Through dropbox paper tables, we made a tally of the critical bits standard across the established websites.
 
 ##### Comparative
-I made a chart of industry terms to increase the efficiency of booking agents at finding talent. Included Backstage, Second City, Actors Access on what where the most used terms by:
+I made a chart of industry terms to increase the efficiency of booking agents at finding talent. Included Backstage, Second City, Actors Access on what were the most used words by:
 1. Count
 2. Used in navigation
 3. Used as categories in blog sections
 
-We focused on this to make decisions about our url structure. The importance of the url is an SEO mainstay.  Given it's importance, I set out to use Vue adjacent tools.
+We focused on this to make decisions about our URL structure. The importance of the url is an SEO mainstay.  Given it's importance, I set out to use Vue adjacent tools.
 
 #### Design
 ##### Sketches
