@@ -14,10 +14,10 @@ So many lessons learned on this project that span coding in Vue.js, deployment, 
 
 
 ##### User Testing
-Using Mixpanel to track first-clicks and beyond, I tested the profile page to give the profile a home. The profile page was tested remote computer style, on the video app of choice by the interviewee, usually at dinner time.  Among the interviewees, Holly Jessye and Karl all participated without having to share their desktop screen.
+Using Mixpanel to track first-clicks and beyond, I tested the profile page to give the profile a home. The profile page was tested remotely on the video app of choice by the interviewee, usually at dinner time.
 
 ##### Competitive
-Northlight, Ticketmaster, 4-Star and NBC where all analyzed as part of the competition to achieve a layout that works on 
+Northlight, Ticketmaster, 4-Star, and NBC where all analyzed as part of the competition to achieve a layout that works on 
 1. photo size and placement
 2. what items are included as part of the contact details
 3. placement of copyright notice
