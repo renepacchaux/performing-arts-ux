@@ -1,45 +1,49 @@
-# Chicago
+# Looking to convention
+
+1.  [Performing Arts Directory](#org985fe58)
+    1.  [Getting into the role](#orged4c6d5)
+        1.  [Project Challenge](#org6744c28)
+        2.  [Discovery](#org21557ae)
+        3.  [Design](#orged2d5c8)
+        4.  [Project Summary](#org92bc4c9)
 
 
-1.  [Performing Arts Directory](#orgbf83a21)
-    1.  [Getting into the role](#orgfff6ff0)
-        1.  [Intro](#org43f3f94)
-        2.  [Project Challenge](#org071a191)
-        3.  [Discovery](#orgec01804)
-        4.  [Design](#org8428ede)
-        5.  [Project Summary](#orgb6c39a0)
-
-
-<a id="orgbf83a21"></a>
+<a id="org985fe58"></a>
 
 # Performing Arts Directory
 
 ![img](https://uploads-ssl.webflow.com/5d7d44d8cb34e46b7a9f7abb/5d7f05ea28ecca3bf6dc2a30_650_chicago%2Bel%2Bcorridor.JPG)
 
 
-<a id="orgfff6ff0"></a>
+<a id="orged4c6d5"></a>
 
 ## Getting into the role
 
+**Intro** A directory of performing artists was created using a frontend
+tool writtin in code. I used it as a framework for what I needed. I will
+be focusing on the situations where it good practice to implement the
+code.
 
-<a id="org43f3f94"></a>
+**Separate focus from a UX designer role** I will need to step lightly
+with separating myself from coding so as to work within the aims of the
+people and stakeholders involved. I will be reviewing my notes-to-self
+writting everytime a take a snapshot of my inprogress work. Because this
+project revolved around a technical activation of a website using a
+modern app-marketed tool, there will be some overlap of roles.
 
-### Intro
+**Revamped priorities** Eventually, this project produced a profile list.
+Taking on conflicting roles meant that finishing the displayable list
+had snubbed any thought to consider the search listings that illustrated
+a milestone to be accomplished. This was not addressed in any particular
+way.
 
-A directory of performing artists was created using Vue.js. I will be
-focusing on the developer within, hoping to describe why this needs
-separate focus from a UX designer role. I will be reviewing GitHub
-commits, trying to see what was missed. I say dev because this project
-revolved around a Heroku Implementation with a firebase fallback.
-Eventually, the fruits of this project were useful as a profile list.
-SEO work started making its way into scope in creep fashion. Aesthetics
-was the focus, but not the problem. What would I go back and do
-differently? Was it easy to follow my own flow? What if the trajectory
-was smooth but the result disjointed? I have, as a result, API
-implementation and a Vue front end with an airtable backend.
+Aesthetics was the focus, but not the problem. What would I go back and
+do differently? Was it easy to follow my own flow? What if the
+trajectory was smooth but the result disjointed? I have, as a result,
+API implementation and a Vue front end with an airtable backend.
 
 
-<a id="org071a191"></a>
+<a id="org6744c28"></a>
 
 ### Project Challenge
 
@@ -47,7 +51,7 @@ The current state of the site has a static entry of background
 information for each performer.
 
 
-<a id="orgec01804"></a>
+<a id="org21557ae"></a>
 
 ### Discovery
 
@@ -58,12 +62,12 @@ deployment, and information architecture.
 
 Using Mixpanel to track first-clicks and beyond, I tested the profile
 page to give the profile a home. The profile page was tested remotely on
-the video app of choice by the interviewee, usually at dinner time.
+the video app of choice by the interviewee.
 
 **Competitive**
 
-Northlight, Ticketmaster, 4-Star, and NBC were all analyzed as part of
-the competition to achieve a layout that works on
+Northlight, Ticketmaster, 4-Star, and NBC were all analyzed as to
+achieve a layout that works on
 
 1.  photo size and placement
 2.  what items are included as part of the contact details
@@ -87,7 +91,7 @@ importance of the url is an SEO mainstay. Given it's importance, I set
 out to use Vue adjacent tools.
 
 
-<a id="org8428ede"></a>
+<a id="orged2d5c8"></a>
 
 ### Design
 
@@ -119,7 +123,7 @@ uniformity. If we lived through a userflow, we can make those decisions
 live in a style guide.
 
 
-<a id="orgb6c39a0"></a>
+<a id="org92bc4c9"></a>
 
 ### Project Summary
 
