@@ -1,22 +1,24 @@
 # Getting into the role
 
 
-1.  [Performing Arts Directory](#org0f72480)
-    1.  [Looking to a convention](#org4247968)
-        1.  [Discovery](#org9a8dc07)
-        2.  [Design](#org5a59e72)
-        3.  [Project Summary](#orge768aa1)
+1.  [Performing Arts Directory](#orgf9c950f)
+    1.  [Performing as one](#org2713c21)
+        1.  [Discovery](#org5d2042d)
+        2.  [Design](#org5d46266)
+        3.  [Project Summary](#orgc76b718)
 
 
-<a id="org0f72480"></a>
+<a id="orgf9c950f"></a>
 
 # Performing Arts Directory
 
+
 ![img](https://uploads-ssl.webflow.com/5d7d44d8cb34e46b7a9f7abb/5d7f05ea28ecca3bf6dc2a30_650_chicago%2Bel%2Bcorridor.JPG)
 
-<a id="org4247968"></a>
 
-## Looking to a convention
+<a id="org2713c21"></a>
+
+## Performing as one
 
 **Project Challenge**
 
@@ -30,7 +32,7 @@ require familiarity with the internals of servers to get them to work. I
 looked online for places where the bulk of the code was already in
 place. By changing just enough of the template, I used it for what was
 needed. I will be focusing on situations where it is good practice to
-keep notes about how you are altering the templates.
+keep notes about altering the templates.
 
 **Separate focus from a UX designer role**
 
@@ -55,14 +57,14 @@ is easy to think you are aligned on how to solve the problem.
 
 **Easy to follow**
 
-It is important to not drum up a list of todos immediately. Some
+It is important not to drum up a list of todos immediately. Some
 resources of the website would call out to existing site and documents
 in published by the stakeholder. Those unpublished were put in place
 with the help of an Airtable service. This is where our performer data
 would live.
 
 
-<a id="org9a8dc07"></a>
+<a id="org5d2042d"></a>
 
 ### Discovery
 
@@ -100,11 +102,11 @@ on what were the most used words by:
 
 We focused on this to make decisions about what affects sharing within
 other apps. The importance of technical aspect bubbles up here.
-Affecting the nameing was merging with the what technical tools were in
+Affecting the naming was merging with the what technical tools were in
 use.
 
 
-<a id="org5a59e72"></a>
+<a id="org5d46266"></a>
 
 ### Design
 
@@ -134,14 +136,14 @@ through "loop one."
 
 **Guidelines**
 
-I didn't want the user necessate learning and re-learning placement. At
-design merge, I kept the colors and font and focused on the root landing
-page. The initial components where Material-based components. I would
-use this to maintain alignment and uniformity. If we lived through a
-user flow, we could make those decisions live in a style guide.
+I didn't want the user necessarily learning and re-learning placement.
+At design merge, I kept the colors and font and focused on the root
+landing page. The initial components were Material-based components. I
+would use this to maintain alignment and uniformity. If we lived through
+a user flow, we could make those decisions live in a style guide.
 
 
-<a id="orge768aa1"></a>
+<a id="orgc76b718"></a>
 
 ### Project Summary
 
