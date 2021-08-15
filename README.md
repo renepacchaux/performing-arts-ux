@@ -1,26 +1,29 @@
-# Getting into the role
+# Before deliniating UI from UX
 
 
-1.  [Performing Arts Directory](#orgf9c950f)
-    1.  [Performing as one](#org2713c21)
-        1.  [Discovery](#org5d2042d)
-        2.  [Design](#org5d46266)
-        3.  [Project Summary](#orgc76b718)
+1.  [Performing Arts Directory](#orgcd87600)
+    1.  [Leveraging established flows](#org27a69af)
+        1.  [Project Challenge](#org4a642fb)
+        2.  [Discovery](#orga3c38af)
+        3.  [Design](#orgc3ccc08)
+        4.  [Project Summary](#org6ef1e17)
 
 
-<a id="orgf9c950f"></a>
+<a id="orgcd87600"></a>
 
 # Performing Arts Directory
-
 
 ![img](https://uploads-ssl.webflow.com/5d7d44d8cb34e46b7a9f7abb/5d7f05ea28ecca3bf6dc2a30_650_chicago%2Bel%2Bcorridor.JPG)
 
 
-<a id="org2713c21"></a>
+<a id="org27a69af"></a>
 
-## Performing as one
+## Leveraging established flows
 
-**Project Challenge**
+
+<a id="org4a642fb"></a>
+
+### Project Challenge
 
 The current state of the site has a lot of background information for
 each performer. The control to update details was handled by the
@@ -60,22 +63,29 @@ is easy to think you are aligned on how to solve the problem.
 It is important not to drum up a list of todos immediately. Some
 resources of the website would call out to existing site and documents
 in published by the stakeholder. Those unpublished were put in place
-with the help of an Airtable service. This is where our performer data
-would live.
+with the help of an special live spreadsheet to work as the centralized
+place of information.
 
 
-<a id="org5d2042d"></a>
+<a id="orga3c38af"></a>
 
 ### Discovery
 
-So many lessons learned on this project that span coding in Vue.js,
-deployment, and information architecture.
+So many lessons learned on this project. They start at a very technical
+level using the same path to get to what you see when you visit the live
+site.
 
 **User Testing**
 
-Using Mixpanel to track first-clicks and beyond, I tested the profile
-page to give the profile a home. The profile page was tested remotely on
-the video app of choice by the interviewee.
+Using a popular multi-click addon software to track user clicks, I was
+able to get the interview notes to match what I see on what was clicked.
+I get closer to the ‘why'. I made it a goal to at list infer what was
+the first thing they look at. I used the first click to tell me this.
+Not quite a 1:1 certaintly, but enough to make a decision about it.
+
+I also tested the profile page to give the headshot gallery a home. The
+profile page was tested remotely on the video app of choice by the
+interviewee.
 
 **Competitive**
 
@@ -101,12 +111,13 @@ on what were the most used words by:
 3.  Used as categories in blog sections
 
 We focused on this to make decisions about what affects sharing within
-other apps. The importance of technical aspect bubbles up here.
-Affecting the naming was merging with the what technical tools were in
-use.
+other apps. I had to work with what I had in terms of the where the live
+site would live. I would not be its own thing but an addon to sit aside
+a static-but-comfortable main site. It was important to consider how all
+components would live together when in use.
 
 
-<a id="org5d46266"></a>
+<a id="orgc3ccc08"></a>
 
 ### Design
 
@@ -125,34 +136,77 @@ set of cascading-style squares.
 
 Given an unknown set of actor records, I pixel-sketched the simple lines
 and boxes that would be the start of the most consequential page on the
-site. At least two views, starting with mobile, in order to look at
-picture placement and text sizes. Justinmind prototyping software
-immediately helped load a data collection into the first wireframes. It
-is important to not assume to much. When using a persona representation,
-I try to 'live it' throughout the user flow and wireframing. If our
-persona, "Dori" is pulling out her phone as she's walking her dog, it is
-only one instance. But finding loopholes is about at least living
-through "loop one."
+site.
+
+Depending on how you are arriving at the site, it could present itself
+in one of two ways.
+
+-   The static representation
+-   The headshot gallery with priority ordering
+
+**Name Placement**
+
+Let me pay attention to the text sizes. There are plenty of software to
+roll out the immediate wireframe. This also helped load a spreadsheets
+sized table of information into the later renditions of the site. There
+were a few clues as to how it would work to click from one thing to the
+other.
+
+I needed the help of a persona. It is important to not take a
+non-descript approach under a wide net in the name of best practices.
+When using a persona representation, I try to 'live it' throughout tthe
+steps anyone would take to produce something immediately useful to
+whoever is using the app.
+
+**Persona Dori**
+
+Our persona. “Dori Lattice.”
+
+She's walking her dog, and we take this situation and unpack it to see
+if we are heading in the right direction. If and when there are issues
+with our first attempt at getting a click progression to feel just
+right, I will go back and ‘fix' it.
 
 **Guidelines**
 
-I didn't want the user necessarily learning and re-learning placement.
-At design merge, I kept the colors and font and focused on the root
-landing page. The initial components were Material-based components. I
-would use this to maintain alignment and uniformity. If we lived through
-a user flow, we could make those decisions live in a style guide.
+I didn't want the user necessarily learning and re-learning where to
+look for what. At the early stages of the design thinking, I kept a
+close eye on the layout for the inital page which is the gallery of
+photos. The code library I used breaks up the work into components.
+Material is the reference for many projects out there and I wanted to
+specifically use the [MaterialCSS](offshoot) for my components. I would
+use this to make sure all my margins and more matched as best as
+possible, without directly going in and specifying them.
+
+There would be more decisions to be made about how a user would progress
+through an app. As long as I document, I could make those decisions and
+have them live within a knowledgebase for the styles beyond what is
+in-place by MaterialCSS.
 
 
-<a id="orgc76b718"></a>
+<a id="org6ef1e17"></a>
 
 ### Project Summary
 
--   The performer name placement is an important convention that reflects
-    the real-world headshots that are handed in at auditions.
--   Templates least serve the user on exposure goals
--   I enjoyed reading the many varied bios of performers
--   I got to delve in deep and live out the process of getting a headshot
-    taken
--   Having the hometown date as a connector category for the user or the
-    booking agent may be a significant next step.
+I had to pay attention to where the performers name lands when in the
+hands of a user. At some level, what I do aims to reflect the real-world
+headshots that are handed in at auditions.
+
+Creating a profile that is special to you is hard from the point of view
+of a person would is at the center of many, possibly on its face
+unrelated projects. I enjoyed getting the details of histories of
+performers, and seeing if there are less obvious commonalities. I like
+to bring that out in the way a site is built.
+
+**Next Steps**
+
+We know from themes in interivews that this type of information lands at
+the desk of a producer. With more resources, it would be wise to dive in
+deep into the process of getting a headshot viewed and vetted for
+worthyness for a particular role.
+
+From themes we have seen in competitive analysis, there is an
+opportunity for having the hometown date visible to a booking agent or
+producer. Further data shows that the stakes of an out of town
+performers tends to draw better results.
 
