@@ -1,27 +1,26 @@
-# Before deliniating UI from UX
+# Before delineating UI from UX
+
+1.  [Performing Arts Directory](#org9023fb0)
+    1.  [Leveraging established flows](#orgdde67aa)
+        1.  [Project Challenge](#orgdc97645)
+        2.  [Discovery](#org35d9dbd)
+        3.  [Design](#org03ec373)
+        4.  [Project Summary](#org4de637a)
 
 
-1.  [Performing Arts Directory](#orgcd87600)
-    1.  [Leveraging established flows](#org27a69af)
-        1.  [Project Challenge](#org4a642fb)
-        2.  [Discovery](#orga3c38af)
-        3.  [Design](#orgc3ccc08)
-        4.  [Project Summary](#org6ef1e17)
-
-
-<a id="orgcd87600"></a>
+<a id="org9023fb0"></a>
 
 # Performing Arts Directory
 
 ![img](https://uploads-ssl.webflow.com/5d7d44d8cb34e46b7a9f7abb/5d7f05ea28ecca3bf6dc2a30_650_chicago%2Bel%2Bcorridor.JPG)
 
 
-<a id="org27a69af"></a>
+<a id="orgdde67aa"></a>
 
 ## Leveraging established flows
 
 
-<a id="org4a642fb"></a>
+<a id="orgdc97645"></a>
 
 ### Project Challenge
 
@@ -63,25 +62,25 @@ is easy to think you are aligned on how to solve the problem.
 It is important not to drum up a list of todos immediately. Some
 resources of the website would call out to existing site and documents
 in published by the stakeholder. Those unpublished were put in place
-with the help of an special live spreadsheet to work as the centralized
+with the help of a special live spreadsheet to work as the centralized
 place of information.
 
 
-<a id="orga3c38af"></a>
+<a id="org35d9dbd"></a>
 
 ### Discovery
 
-So many lessons learned on this project. They start at a very technical
-level using the same path to get to what you see when you visit the live
-site.
+So many lessons were learned on this project. They start at a very
+technical level using the same path to get to what you see when you
+visit the published site.
 
 **User Testing**
 
 Using a popular multi-click addon software to track user clicks, I was
 able to get the interview notes to match what I see on what was clicked.
-I get closer to the ‘why'. I made it a goal to at list infer what was
-the first thing they look at. I used the first click to tell me this.
-Not quite a 1:1 certaintly, but enough to make a decision about it.
+I get closer to the *why*. I made it a goal to at least infer the first
+thing sighted. I used the first click to tell me this. Not quite a
+certain 1:1 but enough to make a decision about it.
 
 I also tested the profile page to give the headshot gallery a home. The
 profile page was tested remotely on the video app of choice by the
@@ -117,7 +116,7 @@ a static-but-comfortable main site. It was important to consider how all
 components would live together when in use.
 
 
-<a id="orgc3ccc08"></a>
+<a id="org03ec373"></a>
 
 ### Design
 
@@ -184,7 +183,7 @@ have them live within a knowledgebase for the styles beyond what is
 in-place by MaterialCSS.
 
 
-<a id="org6ef1e17"></a>
+<a id="org4de637a"></a>
 
 ### Project Summary
 
